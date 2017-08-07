@@ -1,6 +1,6 @@
 <?php 
 
- $salida = shell_exec('ls -lart');
+ $salida = shell_exec('git pull');
  echo "<pre>$salida</pre>";
 
 //`git pull`; 
