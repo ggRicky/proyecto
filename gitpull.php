@@ -1,5 +1,8 @@
 <?php
-echo  shell_exec('git pull');
+
+  exec('git pull');
+
+// echo  shell_exec('git pull');
 // echo "Hola Ricardo ....";
 
 // $salida = shell_exec('ls -lart');
